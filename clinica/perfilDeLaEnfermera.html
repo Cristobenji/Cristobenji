@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de la Enfermera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Perfil de la Enfermera</h1>
+        
+        <div class="profile-info">
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Ana López</p>
+            <p><strong>C.I.:</strong> 45678901</p>
+            <p><strong>Correo Electrónico:</strong> ana.lopez@example.com</p>
+            <p><strong>Teléfono:</strong> 78901234</p>
+            <button class="edit-btn">Editar Perfil</button>
+        </div>
+        
+        <div class="beds">
+            <h2>Gestión de Camas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Habitación</th>
+                        <th>Cama</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A1</td>
+                        <td>1</td>
+                        <td>Disponible</td>
+                        <td>
+                            <button class="edit-btn">Editar</button>
+                            <button class="delete-btn">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Más camas aquí -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="patients">
+            <h2>Pacientes Internados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Habitación</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>A1</td>
+                        <td>Internado</td>
+                        <td>
+                            <button class="edit-btn">Editar</button>
+                            <button class="delete-btn">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Más pacientes aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

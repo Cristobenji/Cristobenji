@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Médico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Perfil del Médico</h1>
+        
+        <div class="profile-info">
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Dr. María González</p>
+            <p><strong>C.I.:</strong> 87654321</p>
+            <p><strong>Correo Electrónico:</strong> maria.gonzalez@example.com</p>
+            <p><strong>Teléfono:</strong> 71234567</p>
+            <button class="edit-btn">Editar Perfil</button>
+        </div>
+        
+        <div class="appointments">
+            <h2>Citas Médicas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Paciente</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>2024-10-05</td>
+                        <td>10:30</td>
+                        <td>
+                            <button class="edit-btn">Editar</button>
+                            <button class="delete-btn">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Más citas aquí -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="patients">
+            <h2>Pacientes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>C.I.</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>12345678</td>
+                        <td>
+                            <button class="edit-btn">Editar</button>
+                            <button class="delete-btn">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Más pacientes aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
